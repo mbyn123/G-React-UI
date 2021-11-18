@@ -1,10 +1,6 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
+import Button from './button'
 
-// console.log('object9999999999')
-const div = document.createElement('div')
-div.innerText = '11331'
-document.body.appendChild(div)
 
-console.log(React)
-console.log(ReactDom)
+ReactDOM.render(<Button></Button>,document.getElementById('root'))
