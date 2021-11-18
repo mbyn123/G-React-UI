@@ -1,8 +1,6 @@
 const path = require("path");
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    mode: 'development', // development production
     entry: { // 项目的入口文件
         index: './lib/index.tsx'
     },
@@ -21,24 +19,5 @@ module.exports = {
                 loader: 'awesome-typescript-loader'
             }
         ]
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: 'index.html'
-        })
-    ],
-    externals: { // 打包时不打包react react-dom
-        react: {
-            commonjs: 'react',
-            commonjs2: 'react',
-            amd: 'react',
-            root: 'React',
-        },
-        'react-dom': {
-            commonjs: 'react-dom',
-            commonjs2: 'react-dom',
-            amd: 'react-dom',
-            root: 'ReactDOM',
-        },
     },
 }
