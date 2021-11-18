@@ -29,7 +29,7 @@
     },
     "include": [
     //   "example.tsx",
-      "lib/**/*",
+       "lib/index.tsx",
     //   "include/**/*",
     //   "examples/**/*",
     //   "types/**/*",
