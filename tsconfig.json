@@ -34,18 +34,14 @@
        "lib/index.tsx",
     //   "include/**/*",
     //   "examples/**/*",
-    //   "types/**/*",
-    //   "test/**/*"
+      "types/**/*",
     ],
     "exclude": [
       "node_modules",
       "build",
       "dist",
       "scripts",
-    //   "acceptance-tests",
       "webpack",
-    //   "jest",
-    //   "src/setupTests.ts",
       "*.js"
     ]
   }

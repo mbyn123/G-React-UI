@@ -17,7 +17,11 @@ module.exports = {
             { // 配置tsx文件解析所需要的loader
                 test: /\.tsx?$/,
                 loader: 'awesome-typescript-loader'
-            }
+            },
+            {
+                test: /icons.+\.svg$/,
+                loader: 'svg-sprite-loader',
+            },
         ]
     },
 }
