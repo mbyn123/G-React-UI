@@ -1,7 +1,5 @@
 import React from "react";
-import wechat from '../icons/wechat.svg'
-
-console.log(wechat)
+import './importAllIcons';
 
 interface Props{
    name:string
