@@ -1,17 +1,18 @@
 import React from "react";
 import './importAllIcons';
+import './icon.scss'
 
-interface Props{
-   name:string
+interface Props {
+    name: string
 }
 
- const Icon:React.FC<Props> = ({name})=>{
+const Icon: React.FC<Props> = ({ name }) => {
     return (
-        <span>
-            <svg>
+        <>
+            <svg className='gui-icon'>
                 <use xlinkHref={`#${name}`}></use>
             </svg>
-        </span>
+        </>
     )
 }
 
