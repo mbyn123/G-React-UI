@@ -6,7 +6,7 @@
         // "utils/*": ["include/utils/*"],
         // "stylesheets": ["stylesheets/"],
         // "examples": ["examples/"]
-
+        "tslib" : ["node_modules/tslib/tslib.d.ts"]
       },
       "rootDirs": ["include"],
       "outDir": "dist",// 指定输出目录
@@ -34,7 +34,7 @@
        "lib/index.tsx",
     //   "include/**/*",
     //   "examples/**/*",
-      "types/**/*",
+      "types/**/*"
     ],
     "exclude": [
       "node_modules",
