@@ -9,7 +9,7 @@ const App = () => {
             <Icon name='meituan' onMouseEnter={()=>console.log('object')}/>
             <Icon name='user' />
             <Icon name='menu' />
-            <Icon name='alipay' />
+            <Icon name='alipay' ></Icon>
         </div>
     )
 };
