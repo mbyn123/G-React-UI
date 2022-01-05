@@ -1,6 +1,6 @@
 const path = require("path");
 
-const devMode = process.env.NODE_ENV !== 'production'
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     entry: { // 项目的入口文件
@@ -18,7 +18,7 @@ module.exports = {
         rules: [
             { // 配置tsx文件解析所需要的loader
                 test: /\.tsx?$/,
-                loader: 'awesome-typescript-loader'
+                loader: 'ts-loader'
             },
             {
                 test: /icons.+\.svg$/,
