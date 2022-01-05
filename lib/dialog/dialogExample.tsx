@@ -7,7 +7,7 @@ export default function DialogExample() {
         <>
             <button onClick={() => setVisible(!visible)}>click</button>
             <Dialog visible={visible}>
-                 <div>789789789789</div>
+                 <div>1111</div>
             </Dialog>
         </>
     )
