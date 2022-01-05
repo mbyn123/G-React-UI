@@ -7,7 +7,7 @@ const App = () => {
         <div>
             <Icon name='wechat' onClick={()=>console.log(23123123)}/>
             <Icon name='meituan' onMouseEnter={()=>console.log('object')}/>
-            <Icon name='user' />
+            <Icon name='user' className={'icon'}/>
             <Icon name='menu' />
             <Icon name='alipay' />
         </div>
