@@ -25,7 +25,7 @@ const Dialog: React.FC<Props> = ({visible, children}) => {
                     {children}
                 </main>
                 <footer className={sc('footer')}>
-                    <button>确定</button>
+                    <button>确定111</button>
                     <button>取消</button>
                 </footer>
             </div>
